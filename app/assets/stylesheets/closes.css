@@ -4,16 +4,26 @@
 .side-bar {
   background-color:#165e83;
   width: 300px;
-  height: 100vh;
   overflow: scroll;
 }
+.header {
+  background-color: #e8ecef;
+  height: 100px;
+
+}
+
 .side-bar-header {
+  background-color:#165e83;
+  width: 300px;
   height: 100px;
   padding: 0 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: start;
+}
+.heder-name{
+  margin-top: 10px;
 }
 .heder-name a {
   font-size: 16px;
@@ -42,11 +52,13 @@
 .check-list-title {
   text-decoration: none;
   color: white;
-  padding: 20px 0;
-  font-size: 18px;
+  padding: 24px 0;
+  font-size: 24px;
 }
 
-
+.check-list  {
+  margin-top: 30px;
+}
 .check-list a {
   font-size: 18px;
   color: #FAFAFA;
@@ -55,14 +67,49 @@
 
 .main {
   background-color: #abced8;
+  width: calc(100vw - 300px);
+}
+.log {
+  background-color: #abced8;
   width: calc(100% - 300px);
 }
+.edit {
+  background-color: #abced8;
+  width: calc(100% - 300px);
+}
+.log-title{
+  color: black;
+  font-size: 24px;
+}
+.logtexts{
+  display: flex;
+  margin-top: 75px;
+  overflow: scroll;
+  font-size: 18px;
+}
+.edittexts{
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: start;
+}
+.edit_button{
+  background-color: #19448e;
+  border: none;
+  color: #FAFAFA;
+  font-size: 16px;
+  height: 50px;
+  width: 290px;
+  padding: 0 20px;
+}
+
 .check-header {
-  background-color: #e8ecef;
-  height: 100px;
+  justify-content: space-between; 
+  width: calc(100vw - 300px);
   padding:  0 40px;
   display: flex;
-  justify-content: space-between;
+
 }
 .header-title {
   color: black;
@@ -86,12 +133,17 @@
 }
 
 .check-mains{
-  padding:10px
+  
 }
 .log-button {
   display: flex;
-  justify-content: left;
   float: right;
+}
+.log-button a{
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding:20px
 }
 
 .check-answer  {
@@ -100,5 +152,26 @@
   padding: 20px 40px;
 }
 
+.container{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
 
+.new_user{
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
 
+.submit{
+  background-color: #19448e;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}

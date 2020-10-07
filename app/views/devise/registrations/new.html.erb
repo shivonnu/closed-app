@@ -11,7 +11,7 @@
                     <%= f.label :store_name %>
                   </div>
                   <div class="field">
-                    <%= f.text_field :store_name, class: "form" %>
+                    <%= f.text_field :store_name, class: "form", autofocus: true %>
                   </div>
                 </div>
 
@@ -20,7 +20,7 @@
                     <%= f.label :email %>
                   </div>
                   <div class="field">
-                    <%= f.email_field :email, class: "form" %>
+                    <%= f.email_field :email, class: "form", autofocus: true %>
                   </div>
                 </div>
                 
@@ -32,7 +32,7 @@
                     <% end %>
                   </div>
                   <div class="field">
-                    <%= f.password_field :password, autocomplete: "off", class: "form" %>
+                    <%= f.password_field :password, autocomplete: "off", class: "form", autofocus: true %>
                   </div>
                 </div>
 
@@ -41,7 +41,7 @@
                     <%= f.label :password_confirmation %>
                   </div>
                   <div class="field">
-                    <%= f.password_field :password_confirmation, autocomplete: "off", class: "form" %>
+                    <%= f.password_field :password_confirmation, autocomplete: "off", class: "form", autofocus: true %>
                   </div>
                 </div>
 

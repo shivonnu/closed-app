@@ -2,7 +2,6 @@ class ClosesController < ApplicationController
   before_action :move_to_index, except: [:edit]
 
   def index
-    
     @close = Close.find_by(id: params[:id])
   end
   def edit

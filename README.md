@@ -22,6 +22,7 @@
 
 ### Association
 - belongs_to :user
+- has_one :list
 
 ## Listsテーブル
 
@@ -32,3 +33,4 @@
 
 ### Association
 - belongs_to :user
+- belongs_to :close

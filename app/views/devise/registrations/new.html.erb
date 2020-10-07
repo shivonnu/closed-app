@@ -1,30 +1,58 @@
 <div class="contents row">
   <div class="container">
-    <h2>Sign up</h2>
-    <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
+      <h2>Sign up</h2>
+      <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
       <%= devise_error_messages! %>
+      <div class = "sin-up-area">
+          <div class = "sin-up-areas">
 
-      <div class="field">
-        <%= f.label :email %><br />
-        <%= f.email_field :email %>
-      </div>
+                <div class = "formbrock">
+                  <div class = "label-field">
+                    <%= f.label :store_name %>
+                  </div>
+                  <div class="field">
+                    <%= f.text_field :store_name, class: "form" %>
+                  </div>
+                </div>
 
-      <div class="field">
-        <%= f.label :password %>
-        <% if @minimum_password_length %>
-          <em>(<%= @minimum_password_length %> characters minimum)</em>
-        <% end %><br />
-        <%= f.password_field :password, autocomplete: "off" %>
-      </div>
+                <div class = "formbrock">
+                  <div class = "label-field">
+                    <%= f.label :email %>
+                  </div>
+                  <div class="field">
+                    <%= f.email_field :email, class: "form" %>
+                  </div>
+                </div>
+                
+                <div class = "formbrock">
+                  <div class = "label-field">
+                    <%= f.label :password %>
+                    <% if @minimum_password_length %>
+                      <em>(<%= @minimum_password_length %> characters minimum)</em>
+                    <% end %>
+                  </div>
+                  <div class="field">
+                    <%= f.password_field :password, autocomplete: "off", class: "form" %>
+                  </div>
+                </div>
 
-      <div class="field">
-        <%= f.label :password_confirmation %><br />
-        <%= f.password_field :password_confirmation, autocomplete: "off" %>
-      </div>
+                <div class = "formbrock">
+                  <div class = "label-field">
+                    <%= f.label :password_confirmation %>
+                  </div>
+                  <div class="field">
+                    <%= f.password_field :password_confirmation, autocomplete: "off", class: "form" %>
+                  </div>
+                </div>
 
-      <div class="actions">
-        <%= f.submit "Sign up", class: "submit"%>
+                <div class = "formbrock">
+                <div class="actions">
+                  <%= f.submit "Sign up", class: "submit"%>
+                </div>
+                </div>
+          </div>
       </div>
-    <% end %>
+              <% end %>
+          
   </div>
 </div>

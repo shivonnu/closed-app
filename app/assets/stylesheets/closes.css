@@ -201,6 +201,7 @@
   font-size: 25px;
   white-space: pre-line;
   color: #FAFAFA;
+
 }
 .under-button{
   display: flex;
@@ -218,4 +219,5 @@
   border: 3px solid black;
   padding: 40px;
   margin:  60px;
+
 }

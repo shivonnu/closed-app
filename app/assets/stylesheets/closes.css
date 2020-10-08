@@ -198,8 +198,14 @@
 
 .check-list>.name {
   text-align: start;
-  
   font-size: 25px;
   white-space: pre-line;
   color: #FAFAFA;
+}
+
+.under-button{
+  display: flex;
+  justify-content: center;
+  
+  align-items: end;
 }

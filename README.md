@@ -18,11 +18,11 @@
 | Column           | Type    | Options                         |
 | ---------------- | ------- | ------------------------------- |
 | number_of_people | integer | null: false                     |
-| date             | string  | null: false                     |
 | user_id          | string  | null: false, foreign_key: :true |
 
 ### Association
 - belongs_to :user
+- has_one :list
 
 ## Listsテーブル
 
@@ -33,3 +33,4 @@
 
 ### Association
 - belongs_to :user
+- belongs_to :close

@@ -6,11 +6,16 @@
     チェックリスト
     </div>
     <div class = "edit-check-list">
-        <%= link_to "チェックリストを編集する" %>
+        <%= link_to "チェックリストを編集する", new_close_path %>
       </div>
-      <%# edit_close_path %>
+   
     <div class = "check-list">
-      <a>炊飯器が空なこと</a>
+    <h2 class = "name">
+   
+    <%= @lists[0].check_list%>
+   
+   </h2>
     </div>
+   
   </div>
 </div>

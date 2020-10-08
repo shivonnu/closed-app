@@ -11,9 +11,10 @@
    
     <div class = "check-list">
     <h2 class = "name">
-   
-    <%= @lists[0].check_list%>
-   
+    <%= @lists[0].check_list if @lists.present?%>
+    <%unless @lists.nil?%>
+   ウォッシャー電源止めて水抜いた<br>食材期限確認した<br>フライヤー電源止めた<br>炊飯器洗った
+   <%end%>
    </h2>
     </div>
    

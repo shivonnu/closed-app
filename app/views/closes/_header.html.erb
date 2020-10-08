@@ -2,7 +2,11 @@
   <div class = "wrapper">
     <div class = "side-bar-header">
       <div class = "heder-name">
+       <% if user_signed_in? %>
       <%= link_to current_user.store_name, "#", class: "user-nickname" %>
+      <%else%>
+      <%= link_to "ようこそゲストさん！", "#", class: "user-nickname" %>
+      <%end%>
       </div>  
       
     </div>
@@ -16,9 +20,15 @@
         <div class = "right-header">
           <div class = "header-button">
             <%= link_to "ログアウト", destroy_user_session_path, method: :delete%>
-          <%else%>
+          </div>
+        </div>
+         <%else%>
+         <div class = "right-header">
+          <div class = "header-button">
             <%= link_to "ログイン", new_user_session_path%>
             <%= link_to "新規登録", new_user_registration_path%>
+          </div>
+        </div>
           <%end%>
           </div>
         </div>

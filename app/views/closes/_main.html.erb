@@ -1,7 +1,11 @@
 <div class = "check-main">
   <div class = "check-mains">
     <div class = "log-button">
+     <% if user_signed_in? %>
     <%= link_to "ログを参照する", close_path(current_user.id) %>
+    <%else%>
+    <%= link_to "ログを参照する", "#" %>
+     <%end%>
     </div>
   </div>
 </div>

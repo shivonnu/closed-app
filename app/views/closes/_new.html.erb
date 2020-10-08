@@ -10,7 +10,7 @@
     <%= form_with model: [@closes], url:  closes_path, method: :post,  local: true do |f|%>
     <div class = "edittexts">
         <div class = "text-area-input">
-          <%= text_area_tag(:check_list, "（例）ウォッシャー電源切った", size: "30x20",class: "check_list") %>
+          <%=text_area_tag(:check_list,"（例）ウォッシャー電源切った",size: "30x20",class: "check_list")%>
         </div>
         <div class = "button">
         <%= submit_tag "編集", class: "edit_button" %>

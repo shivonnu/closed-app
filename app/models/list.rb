@@ -1,4 +1,4 @@
 class List < ApplicationRecord
-  belongs_to :user, optional: true
-  belongs_to :close, optional: true
+  has_many :users, through: :closes
+  has_many :closes
 end

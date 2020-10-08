@@ -1,15 +1,17 @@
 class ClosesController < ApplicationController
-  before_action :move_to_index, except: [:edit]
+  before_action :authenticate_user!, only: [:new]
 
   def index
-    @close = current_user.id
+    @lists = List.order("created_at desc").limit(1)
   end
  
   def show
     @close = current_user.id
+    @lists = List.order("created_at desc").limit(1)
   end
 
   def new
+    @lists = List.order("created_at desc").limit(1)
     @closes = List.new
     @close = current_user.id
   end
@@ -26,12 +28,7 @@ class ClosesController < ApplicationController
     end
   end
 
-  def move_to_index
-    unless user_signed_in?
-      redirect_to action: :index
-    end
-  end
-
+ 
  private
  def list_params
   params.permit(:check_list).merge(user_id: [current_user.id])

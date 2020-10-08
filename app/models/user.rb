@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   validates :store_name, presence: true
   has_many :closes
-  has_many :lists
+  has_many :lists, through: :users
 end
 
 

@@ -1,4 +1,4 @@
 class Close < ApplicationRecord
   belongs_to :user
-  has_one :list, optional: true
+  belongs_to :list
 end

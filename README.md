@@ -1,4 +1,5 @@
 # README
+<img width="1781" alt="スクリーンショット 2020-10-08 19 20 53" src="https://user-images.githubusercontent.com/69893922/95470757-21c51d80-09bc-11eb-9783-0aaccb2bcb05.png">
 
 ## アプリケーション名
 Closed-App
@@ -45,7 +46,8 @@ email、パスワードでログインします。
 ## 実装した機能についてのGIFと説明
 一人ずつ確認したチェックをボタンでできます。
 チェックリストを左側に見やすく出しておけます。
-
+![70c624c4c054b2565b111a3ddf93f3eb](https://user-images.githubusercontent.com/69893922/95470592-ee828e80-09bb-11eb-86d1-4f45b8ea6395.gif)
+![f10ca16ca54ae2bb321d23cc3e6ef031](https://user-images.githubusercontent.com/69893922/95470601-f04c5200-09bb-11eb-892a-7a4e9df33694.gif)
 
 ## 実装予定の機能
 

@@ -3,7 +3,7 @@
     <div class = "side-bar-header">
       <div class = "heder-name">
        <% if user_signed_in? %>
-      <%= link_to current_user.store_name, "#", class: "user-nickname" %>
+      <%= link_to current_user.store_name,  class: "user-nickname" %>
       <%else%>
       <%= link_to "ようこそゲストさん！", "#", class: "user-nickname" %>
       <%end%>
@@ -19,7 +19,7 @@
            <% if user_signed_in? %>
         <div class = "right-header">
           <div class = "header-button">
-            <%= link_to "ログアウト", destroy_user_session_path, method: :delete%>
+            <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
           </div>
         </div>
          <%else%>

@@ -77,7 +77,7 @@ email、パスワードでログインします。
 | Column           | Type    | Options                         |
 | ---------------- | ------- | ------------------------------- |
 | number_of_people | integer | null: false                     |
-| user_id          | string  | null: false, foreign_key: :true |
+| user_id          | integer | null: false, foreign_key: :true |
 
 ### Association
 - belongs_to :user
@@ -88,7 +88,7 @@ email、パスワードでログインします。
 | Column     | Type    | Options                         |
 | ---------- | ------- | ------------------------------- |
 | check_list | text    |                                 |
-| user_id    | string  | null: false, foreign_key: :true |
+| user_id    | integer | null: false, foreign_key: :true |
 
 ### Association
 - belongs_to :user

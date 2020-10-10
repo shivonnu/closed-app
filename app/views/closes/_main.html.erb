@@ -1,26 +1,20 @@
 <div class = "check-main">
   <div class = "check-mains">
     <div class = "log-button">
-     <% if user_signed_in? %>
-    <%= link_to "ログを参照する", close_path(current_user.id) %>
-    <%else%>
-    <%= link_to "ログを参照する", "#" %>
-     <%end%>
+      <% if user_signed_in? %>
+        <%= link_to "ログを参照する", close_path(current_user.id) %>
+      <%else%>
+        <%= link_to "ログを参照する", "#" %>
+      <%end%>
     </div>
   </div>
-
-<div class = "block">
-
-<h2 class = "marubatubutton" id = "buttun1">○</h2>
-<h2 class = "marubatubutton" id = "buttun2">○</h2>
-<h2 class = "marubatubutton" id = "buttun3">○</h2>
-<h2 class = "marubatubutton" id = "buttun4">○</h2>
-<h2 class = "marubatubutton" id = "buttun5">戻す</h2>
-
-</div>
-
-
-  
+    <div class = "block">
+      <h2 class = "marubatubutton" id = "buttun1">○</h2>
+      <h2 class = "marubatubutton" id = "buttun2">○</h2>
+      <h2 class = "marubatubutton" id = "buttun3">○</h2>
+      <h2 class = "marubatubutton" id = "buttun4">○</h2>
+      <h2 class = "marubatubutton" id = "buttun5">戻す</h2>
+    </div>
 </div>
 <div class = "check-answer">
 </div>

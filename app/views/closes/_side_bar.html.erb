@@ -1,28 +1,23 @@
-
-
 <div class = "side-bar-main">
   <div class = "side-bar-mains">
     <div class = "check-list-title">
-    チェックリスト
+      チェックリスト
     </div>
     <div class = "edit-check-list">
-        <%= link_to "チェックリストを編集する", new_close_path %>
-      </div>
-   
-    <div class = "check-list">
-    <h2 class = "name">
-    <%# <%binding.pry%> 
-    <% if user_signed_in?%>
-    <% @list.where(user_id: current_user.id).each do |list| %>
-    <%=list.check_list%>
-    <%end%>
-    <%end%>
-    <%# <%=  @list.find_by(user_id: current_user.id) if @list.present?%>  
-   <%if @lists.nil?%>
-   ウォッシャー電源止めて水抜いた<br>食材期限確認した<br>フライヤー電源止めた<br>炊飯器洗った
-   <%end %> 
-   </h2>
+      <%= link_to "チェックリストを編集する", new_close_path %>
     </div>
+    <div class = "check-list">
+      <h2 class = "name">
+        <% if user_signed_in?%>
+          <% @list.where(user_id: current_user.id).each do |list| %>
+            <%=list.check_list%>
+          <%end%>
+        <%end%> 
+        <%if @list.nil?%>
+          ウォッシャー電源止めて水抜いた<br>食材期限確認した<br>フライヤー電源止めた<br>炊飯器洗った
+        <%end %> 
+      </h2>
+   </div>
    
   </div>
 </div>

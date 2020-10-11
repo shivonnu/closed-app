@@ -1,17 +1,15 @@
 class ClosesController < ApplicationController
   before_action :authenticate_user!, only: [:new]
+  before_action :set_list, only: [:index, :show, :new]
 
   def index
-    @list = List.all.order("created_at desc").limit(1)
   end
  
   def show
-    @list = List.all.order("created_at desc").limit(1)
   end
 
   def new
     @closes = List.new
-    @list = List.all.order("created_at desc").limit(1)
   end
 
   def create
@@ -24,8 +22,12 @@ class ClosesController < ApplicationController
       render :new
     end
   end
-
  
+
+  def set_list
+    @list = List.order("created_at desc").limit(1)
+  end
+
  private
  def list_params
   params.permit(:check_list).merge(user_id: current_user.id)

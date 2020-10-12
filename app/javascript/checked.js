@@ -1,29 +1,68 @@
+addEventListener("load",function() {
 
-function check() {
-document.getElementById('buttun1').onclick = function(){
-  document.getElementById('buttun1').style.background = 'pink';
+let ele1_1 = document.getElementById('buttun1ok');
+let ele1_2 = document.getElementById('buttun1ng');
+let ele2_1 = document.getElementById('buttun2ok');
+let ele2_2 = document.getElementById('buttun2ng');
+let ele3_1 = document.getElementById('buttun3ok');
+let ele3_2 = document.getElementById('buttun3ng');
+let ele4_1 = document.getElementById('buttun4ok');
+let ele4_2 = document.getElementById('buttun4ng');
+
+const ok1_1 = ele1_1.style.display;
+const ng1_1 = ele1_2.style.display;
+const ok2_1 = ele2_1.style.display;
+const ng2_1 = ele2_2.style.display;
+const ok3_1 = ele3_1.style.display;
+const ng3_1 = ele3_2.style.display;
+const ok4_1 = ele4_1.style.display;
+const ng4_1 = ele4_2.style.display;
+
+ele1_1.style.display = 'none';
+ele2_1.style.display = 'none';
+ele3_1.style.display = 'none';
+ele4_1.style.display = 'none';
+
+ele1_1.onclick = function(){
+  ele1_1.style.display = 'none';
+  ele1_2.style.display = ng1_1;
+}
+ele1_2.onclick = function(){
+  ele1_2.style.display = 'none';
+  ele1_1.style.display = ok1_1;
 }
 
-document.getElementById('buttun2').onclick = function(){
-  document.getElementById('buttun2').style.background = 'pink';
+ele2_1.onclick = function(){
+  ele2_1.style.display = 'none';
+  ele2_2.style.display = ng2_1;
 }
 
-document.getElementById('buttun3').onclick = function(){
-  document.getElementById('buttun3').style.background = 'pink';
+ele2_2.onclick = function(){
+  ele2_2.style.display = 'none';
+  ele2_1.style.display = ok2_1;
 }
 
-document.getElementById('buttun4').onclick = function(){
-  document.getElementById('buttun4').style.background = 'pink';
+ele3_1.onclick = function(){
+  ele3_1.style.display = 'none';
+  ele3_2.style.display = ng3_1;
 }
 
-document.getElementById('buttun5').onclick = function(){
-  document.getElementById('buttun1').style.background = '#abced8';
-  document.getElementById('buttun2').style.background = '#abced8';
-  document.getElementById('buttun3').style.background = '#abced8';
-  document.getElementById('buttun4').style.background = '#abced8';
-}
+ele3_2.onclick = function(){
+  ele3_2.style.display = 'none';
+  ele3_1.style.display = ok3_1;
 }
 
-window.addEventListener("load", check);
+ele4_1.onclick = function(){
+  ele4_1.style.display = 'none';
+  ele4_2.style.display = ng4_1;
+}
+
+ele4_2.onclick = function(){
+  ele4_2.style.display = 'none';
+  ele4_1.style.display = ok4_1;
+}
+
+
+})
 
 

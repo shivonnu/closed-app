@@ -62,19 +62,6 @@ ele4_2.onclick = function(){
   ele4_1.style.display = ok4_1;
 }
 
-function judge() {
-  // 勝ち
-  if((ele1_1.style.display = 'none'; && ele2_1.style.display = 'none'; && ele3_1.style.display = 'none';&& ele2_1.style.display = 'none';) 
-      displayResult("you win!", "win");
-      return;
-  }
-
-// 結果の表示
-function displayResult(res, cName) {
-  $("result").innerHTML = res;
-  $("result").className = cName;
-  isRun = false;
-}
 
 })
 

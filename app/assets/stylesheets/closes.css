@@ -210,14 +210,15 @@
 }
 .block{
   display: flex;
-  justify-content: space-around;
+  justify-content:  space-evenly;
 }
-.marubatubutton{
-  display: flex;
-  justify-content: space-around;
-  font-size: 60px;
-  border: 3px solid black;
-  padding: 40px;
-  margin:  60px;
+.marubatubuttonok{
+  font-size: 200px;
+  color: red;
+}
+.marubatubuttonng{
+  font-size: 200px;
+  color: blue;
+}
 
-}
+

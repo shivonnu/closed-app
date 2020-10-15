@@ -211,6 +211,7 @@
 .block{
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 .marubatubuttonok{
   font-size: 200px;
@@ -224,4 +225,5 @@
 .check-ok{
   font-size: 100px;
   color: red;
+  vertical-align: top;
 }

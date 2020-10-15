@@ -132,7 +132,7 @@
 .check-answer  {
   background-color: #e8ecef;
   height: 210px;
-  padding: 20px 40px;
+  padding:  10px 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -219,10 +219,12 @@
 .marubatubuttonok{
   font-size: 200px;
   color: red;
+  align-items: flex-start;
 }
 .marubatubuttonng{
   font-size: 200px;
   color: blue;
+  align-items: flex-start;
 }
 
 .check-ok{

@@ -133,6 +133,9 @@
   background-color: #e8ecef;
   height: 210px;
   padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .container{
   margin: 50px;

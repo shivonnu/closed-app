@@ -116,7 +116,7 @@
   padding:20px
 }
 .check-main {
-  height: calc(100vh - 100px - 90px);
+  height: calc(100vh - 100px - 210px);
   padding: 46px 40px 0;
 }
 .log-button {
@@ -131,7 +131,7 @@
 }
 .check-answer  {
   background-color: #e8ecef;
-  height: 90px;
+  height: 210px;
   padding: 20px 40px;
 }
 .container{
@@ -221,4 +221,7 @@
   color: blue;
 }
 
-
+.check-ok{
+  font-size: 100px;
+  color: red;
+}

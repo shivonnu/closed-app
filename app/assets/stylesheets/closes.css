@@ -116,7 +116,7 @@
   padding:20px
 }
 .check-main {
-  height: calc(100vh - 100px - 210px);
+  height: calc(100vh - 100px - 300px);
   padding: 46px 40px 0;
 }
 .log-button {
@@ -131,7 +131,7 @@
 }
 .check-answer  {
   background-color: #e8ecef;
-  height: 210px;
+  height: 300px;
   padding:  10px 50px;
   display: flex;
   flex-direction: column;

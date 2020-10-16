@@ -46,8 +46,10 @@ email、パスワードでログインします。
 ## 実装した機能についてのGIFと説明
 一人ずつ確認したチェックをボタンでできます。
 チェックリストを左側に見やすく出しておけます。
-![105b4fd1fce85426962e3bcc70053475](https://user-images.githubusercontent.com/69893922/95713234-2716b680-0ca1-11eb-9ecb-5145b082edaa.gif)
-![9f72017bee911fb8a53f748b1063faf0](https://user-images.githubusercontent.com/69893922/95714170-c5efe280-0ca2-11eb-922e-5f5a9ab220b2.gif)
+![0350e3b728169cb2bca00eca1bf4b21f](https://user-images.githubusercontent.com/69893922/96260535-214f0700-0ffa-11eb-986d-11901b77ae57.gif)
+![016f7ade56bfdaddc430ffec68da1c17](https://user-images.githubusercontent.com/69893922/96260547-2449f780-0ffa-11eb-93c0-89a26dd18409.gif)
+
+
 
 ## 実装予定の機能
 

@@ -1,5 +1,5 @@
 # README
-<img width="1761" alt="スクリーンショット 2020-10-12 15 50 37" src="https://user-images.githubusercontent.com/69893922/95714159-c38d8880-0ca2-11eb-8041-0bf550cf15ff.png">
+<img width="1706" alt="スクリーンショット 2020-10-16 21 57 54" src="https://user-images.githubusercontent.com/69893922/96261012-c9fd6680-0ffa-11eb-9f47-92ad36e1a967.png">
 
 ## アプリケーション名
 Closed-App

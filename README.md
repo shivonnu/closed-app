@@ -1,5 +1,5 @@
 # README
-<img width="1706" alt="スクリーンショット 2020-10-16 21 57 54" src="https://user-images.githubusercontent.com/69893922/96261012-c9fd6680-0ffa-11eb-9f47-92ad36e1a967.png">
+![4e5fab0820b8192e1e8c903719d58a5d](https://user-images.githubusercontent.com/69893922/96470682-82304680-1269-11eb-8b88-f794eb25e500.gif)
 
 ## アプリケーション名
 Closed-App
@@ -46,10 +46,9 @@ email、パスワードでログインします。
 ## 実装した機能についてのGIFと説明
 一人ずつ確認したチェックをボタンでできます。
 チェックリストを左側に見やすく出しておけます。
-![0350e3b728169cb2bca00eca1bf4b21f](https://user-images.githubusercontent.com/69893922/96260535-214f0700-0ffa-11eb-986d-11901b77ae57.gif)
-![016f7ade56bfdaddc430ffec68da1c17](https://user-images.githubusercontent.com/69893922/96260547-2449f780-0ffa-11eb-93c0-89a26dd18409.gif)
-
-
+![4e4725e96f90c042e74fc989f59e4c34](https://user-images.githubusercontent.com/69893922/96470716-8a888180-1269-11eb-95d5-5bde06d50b40.gif)
+<img width="1625" alt="スクリーンショット 2020-10-20 0 16 00" src="https://user-images.githubusercontent.com/69893922/96470744-907e6280-1269-11eb-8b6b-fc66aa776d22.png">
+全員マルにするとログが残ります。
 
 ## 実装予定の機能
 

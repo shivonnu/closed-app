@@ -232,3 +232,29 @@
   color: red;
   vertical-align: top;
 }
+.main-new{
+  background-color: #e8ecef;
+  height: 300px;
+  
+
+}
+.main-new-set{
+  display: flex;
+  flex-direction: column; 
+}
+.log-flame{
+/* display: none; */
+}
+.log-flame-button{
+  /* display: none; */
+}
+
+.check-form{
+  visibility: hidden;
+}
+.check-text{
+  visibility: hidden;
+}
+.check-submit{
+  visibility: hidden;
+}

@@ -76,7 +76,6 @@
 }
 .logtexts{
   display: flex;
-  margin-top: 75px;
   overflow: scroll;
   font-size: 18px;
 }
@@ -116,8 +115,9 @@
   padding:20px
 }
 .check-main {
-  height: calc(100vh - 100px - 300px);
+  height: calc(100vh - 100px);
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 .log-button {
   display: flex;
@@ -135,7 +135,7 @@
   padding:  10px 50px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+
 }
 .container{
   margin: 50px;
@@ -226,7 +226,6 @@
   color: blue;
   align-items: flex-start;
 }
-
 .check-ok{
   font-size: 100px;
   color: red;
@@ -235,24 +234,12 @@
 .main-new{
   background-color: #e8ecef;
   height: 300px;
-  
-
 }
 .main-new-set{
   display: flex;
   flex-direction: column; 
 }
-.log-flame{
-/* display: none; */
-}
-.log-flame-button{
-  /* display: none; */
-}
-
 .check-form{
-  visibility: hidden;
-}
-.check-text{
   visibility: hidden;
 }
 .check-submit{

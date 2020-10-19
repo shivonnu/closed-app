@@ -7,12 +7,16 @@
       閉店チェックした日付
     </div>
   </div>
+  <% if user_signed_in?%> 
+  <% @close.where(user_id: current_user.id).each do |close| %>
  <div class = "logtexts">
     <div class = "logtext">
-      2020/3/31（木）
-      閉店チェックしました
+      <%= close.created_at.strftime('%Y/%m/%d')%>閉店しました！
+         <%end%>
+        <%end%> 
+       <%if @close.nil?%>
+         (例)2020/10/19閉店しました！
+        <%end %> 
     </div>
   </div>
-</div>
-<div class = "check-answer">
-</div>
+  

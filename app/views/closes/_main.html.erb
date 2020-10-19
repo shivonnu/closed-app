@@ -8,7 +8,7 @@
       <%end%>
     </div>
   </div>
-
+    <% if user_signed_in? %>
     <div class = "block">
       <h2 class = "marubatubuttonok" id = "buttun1ok"></h2>
       <h2 class = "marubatubuttonng" id = "buttun1ng"></h2>
@@ -20,12 +20,13 @@
       <h2 class = "marubatubuttonng" id = "buttun4ng"></h2>
     </div>
 
-
    <div class = "form">
     <%= form_with model:@closes, url:closes_path, method: :post, class:"check-form", id: "check-form", local: true do |f|%>
           <%= text_field_tag(:number_of_people,"4", class: "check-text", id: "check-text")%>    
            <%= submit_tag"ログ投稿", class: "check-submit", id: "check-submit"%>
     <%end%>
-
+    <%else%>
+    ログインしたら、チェック、ログ参照ができるようになります！
+    <%end%>
 </div>
 </div>

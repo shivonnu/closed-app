@@ -135,7 +135,6 @@
   padding:  10px 50px;
   display: flex;
   flex-direction: column;
-
 }
 .container{
   margin: 50px;
@@ -204,29 +203,24 @@
   font-size: 25px;
   white-space: pre-line;
   color: #FAFAFA;
-
 }
 .under-button{
   display: flex;
   justify-content: center;
   align-items: end;
 }
-
 .kaigyou{
   display: flex;
 }
-
 .marubatubuttonok{
   font-size: 100px;
   color: red;
   padding: 5px;
-  
 }
 .marubatubuttonng{
   font-size: 100px;
   color: blue;
   padding: 5px;
- 
 }
 .check-ok{
   font-size: 100px;
@@ -247,9 +241,6 @@
 .check-submit{
   visibility: hidden;
 }
-.buttonspace{
-  
-}
 .peoplebutton-block{
   padding: 5px;
 }
@@ -259,5 +250,10 @@
   color: black;
   background-color: #abced8;
   text-decoration: none;
-  
+}
+.peoplebutton {
+font-size: 30px;
+}
+.peoplemaru{
+  display: none;
 }

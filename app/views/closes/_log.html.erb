@@ -11,7 +11,7 @@
   <% @close.where(user_id: current_user.id).each do |close| %>
  <div class = "logtexts">
     <div class = "logtext">
-      <%= close.created_at.strftime('%Y/%m/%d')%>閉店しました！
+      <%= close.number_of_people%>人で<%= close.created_at.strftime("%m月%d日")%>閉店しました！
          <%end%>
         <%end%> 
        <%if @close.nil?%>

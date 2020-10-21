@@ -211,20 +211,22 @@
   justify-content: center;
   align-items: end;
 }
-.block{
+
+.kaigyou{
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
 }
+
 .marubatubuttonok{
-  font-size: 200px;
+  font-size: 100px;
   color: red;
-  align-items: flex-start;
+  padding: 5px;
+  
 }
 .marubatubuttonng{
-  font-size: 200px;
+  font-size: 100px;
   color: blue;
-  align-items: flex-start;
+  padding: 5px;
+ 
 }
 .check-ok{
   font-size: 100px;
@@ -244,4 +246,18 @@
 }
 .check-submit{
   visibility: hidden;
+}
+.buttonspace{
+  
+}
+.peoplebutton-block{
+  padding: 5px;
+}
+.peoplebutton{
+  border: 1px solid black;
+  padding: 14px;
+  color: black;
+  background-color: #abced8;
+  text-decoration: none;
+  
 }

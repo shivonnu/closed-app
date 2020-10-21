@@ -7,11 +7,29 @@ let ele3_1 = document.getElementById("buttun3ok");
 let ele3_2 = document.getElementById("buttun3ng");
 let ele4_1 = document.getElementById("buttun4ok");
 let ele4_2 = document.getElementById("buttun4ng");
+let ele5_1 = document.getElementById("buttun5ok");
+let ele5_2 = document.getElementById("buttun5ng");
+let ele6_1 = document.getElementById("buttun6ok");
+let ele6_2 = document.getElementById("buttun6ng");
+let ele7_1 = document.getElementById("buttun7ok");
+let ele7_2 = document.getElementById("buttun7ng");
+let ele8_1 = document.getElementById("buttun8ok");
+let ele8_2 = document.getElementById("buttun8ng");
+let ele9_1 = document.getElementById("buttun9ok");
+let ele9_2 = document.getElementById("buttun9ng");
+let ele10_1 = document.getElementById("buttun10ok");
+let ele10_2 = document.getElementById("buttun10ng");
 
 ele1_2.innerText = "×";
 ele2_2.innerText = "×";
 ele3_2.innerText = "×";
 ele4_2.innerText = "×";
+ele5_2.innerText = "×";
+ele6_2.innerText = "×";
+ele7_2.innerText = "×";
+ele8_2.innerText = "×";
+ele9_2.innerText = "×";
+ele10_2.innerText = "×";
 
 ele1_1.onclick = function(){
   ele1_1.innerText = "";
@@ -50,6 +68,63 @@ ele4_1.onclick = function(){
 ele4_2.onclick = function(){
   ele4_2.innerText = "";
   ele4_1.innerText = "○";
+};
+
+ele5_1.onclick = function(){
+  ele5_1.innerText = "";
+  ele5_2.innerText = "×";
+};
+
+ele5_2.onclick = function(){
+  ele5_2.innerText = "";
+  ele5_1.innerText = "○";
+};
+
+ele6_1.onclick = function(){
+  ele6_1.innerText = "";
+  ele6_2.innerText = "×";
+};
+
+ele6_2.onclick = function(){
+  ele6_2.innerText = "";
+  ele6_1.innerText = "○";
+};
+
+ele7_1.onclick = function(){
+  ele7_1.innerText = "";
+  ele7_2.innerText = "×";
+};
+
+ele7_2.onclick = function(){
+  ele7_2.innerText = "";
+  ele7_1.innerText = "○";
+};
+ele8_1.onclick = function(){
+  ele8_1.innerText = "";
+  ele8_2.innerText = "×";
+};
+
+ele8_2.onclick = function(){
+  ele8_2.innerText = "";
+  ele8_1.innerText = "○";
+};
+ele9_1.onclick = function(){
+  ele9_1.innerText = "";
+  ele9_2.innerText = "×";
+};
+
+ele9_2.onclick = function(){
+  ele9_2.innerText = "";
+  ele9_1.innerText = "○";
+};
+ele10_1.onclick = function(){
+  ele10_1.innerText = "";
+  ele10_2.innerText = "×";
+};
+
+ele10_2.onclick = function(){
+  ele10_2.innerText = "";
+  ele10_1.innerText = "○";
 };
 });
 

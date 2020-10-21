@@ -7,9 +7,61 @@
         <%= link_to "ログを参照する", "#" %>
       <%end%>
     </div>
+    今日の閉店人数
+    <div class = "buttonspace">
+    <div class = "kaigyou">
+      <div class = "peoplebutton-block">
+      <%= submit_tag"1人 ", class: "peoplebutton", id: "people_1_button"%>
+      </div>
+      <div class = "peoplebutton-block">
+      <%= submit_tag"2人 ", class: "peoplebutton", id: "people_2_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"3人 ", class: "peoplebutton", id: "people_3_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"4人 ", class: "peoplebutton", id: "people_4_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"5人  ", class: "peoplebutton", id: "people_5_button"%>
+      </div>
+      </div>
+      <div class = "kaigyou">
+       <div class = "peoplebutton-block">
+      <%= submit_tag"6人 ", class: "peoplebutton", id: "people_6_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"7人 ", class: "peoplebutton", id: "people_7_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"8人 ", class: "peoplebutton", id: "people_8_button"%>
+      </div>
+       <div class = "peoplebutton-block">
+      <%= submit_tag"9人 ", class: "peoplebutton", id: "people_9_button"%>
+      </div>
+      <div class = "peoplebutton-block">
+      <%= submit_tag"10人", class: "peoplebutton", id: "people_10_button"%>
+      </div>
+      </div>
+    </div>
+
   </div>
     <% if user_signed_in? %>
     <div class = "block">
+      <h2 class = "peoplemaru_1" id = "peoplemaru_1"></h2>
+      <h2 class = "peoplemaru_2" id = "peoplemaru_2"></h2>
+      <h2 class = "peoplemaru_3" id = "peoplemaru_3"></h2>
+      <h2 class = "peoplemaru_4" id = "peoplemaru_4"></h2>
+      <h2 class = "peoplemaru_5" id = "peoplemaru_5"></h2>
+      <h2 class = "peoplemaru_6" id = "peoplemaru_6"></h2>
+      <h2 class = "peoplemaru_7" id = "peoplemaru_7"></h2>
+      <h2 class = "peoplemaru_8" id = "peoplemaru_8"></h2>
+      <h2 class = "peoplemaru_9" id = "peoplemaru_9"></h2>
+      <h2 class = "peoplemaru_10" id = "peoplemaru_10"></h2>
+    </div>
+
+    <div class = "block">
+    <div class = "kaigyou">
       <h2 class = "marubatubuttonok" id = "buttun1ok"></h2>
       <h2 class = "marubatubuttonng" id = "buttun1ng"></h2>
       <h2 class = "marubatubuttonok" id = "buttun2ok"></h2>
@@ -18,6 +70,21 @@
       <h2 class = "marubatubuttonng" id = "buttun3ng"></h2>
       <h2 class = "marubatubuttonok" id = "buttun4ok"></h2>
       <h2 class = "marubatubuttonng" id = "buttun4ng"></h2>
+      <h2 class = "marubatubuttonok" id = "buttun5ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun5ng"></h2>
+      </div>
+    <div class = "kaigyou">
+      <h2 class = "marubatubuttonok" id = "buttun6ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun6ng"></h2>
+      <h2 class = "marubatubuttonok" id = "buttun7ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun7ng"></h2>
+      <h2 class = "marubatubuttonok" id = "buttun8ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun8ng"></h2>
+      <h2 class = "marubatubuttonok" id = "buttun9ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun9ng"></h2>
+      <h2 class = "marubatubuttonok" id = "buttun10ok"></h2>
+      <h2 class = "marubatubuttonng" id = "buttun10ng"></h2>
+      </div>
     </div>
 
    <div class = "form">

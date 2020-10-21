@@ -7,5 +7,3 @@ class User < ApplicationRecord
   has_many :closes
   has_many :lists, through: :users
 end
-
-

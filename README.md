@@ -66,16 +66,14 @@ email、パスワードでログインします。
 
 ## Usersテーブル
 
-| Column               | Type    | Options     |
-| -------------------- | ------- | ----------- |
-| store_name           | text    | null: false |
-| email                | string  | null: false |
-| encrypted_password   | string  | null: false |
-| reset_password_token | string  | null: false |
+| Column      | Type    | Options     |
+| ----------- | ------- | ----------- |
+| store_name  | string  | null: false |
+| email       | string  | null: false |
+| pass_word   | string  | null: false |
 
 ### Association
 - has_many :closes
-- has_one :list
 
 ## Closesテーブル
 

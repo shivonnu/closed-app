@@ -1,5 +1,5 @@
 # README
-![4e5fab0820b8192e1e8c903719d58a5d](https://user-images.githubusercontent.com/69893922/96470682-82304680-1269-11eb-8b88-f794eb25e500.gif)
+![d2df83a8731937aa9169e94b76e3fb6e](https://user-images.githubusercontent.com/69893922/96717203-0f49db80-13e1-11eb-912c-78e662885496.gif)
 
 ## アプリケーション名
 Closed-App
@@ -41,13 +41,17 @@ email、パスワードでログインします。
 
 ## 洗い出した要件
 
+- 閉店人数を変更できる
+
 - ボタンを押して決められた人数になったらOKが出る
+
+- OKの合図が出たらログが残り、後日チェックを実施しているか確認できる
 
 ## 実装した機能についてのGIFと説明
 一人ずつ確認したチェックをボタンでできます。
 チェックリストを左側に見やすく出しておけます。
-![4e4725e96f90c042e74fc989f59e4c34](https://user-images.githubusercontent.com/69893922/96470716-8a888180-1269-11eb-95d5-5bde06d50b40.gif)
-<img width="1625" alt="スクリーンショット 2020-10-20 0 16 00" src="https://user-images.githubusercontent.com/69893922/96470744-907e6280-1269-11eb-8b6b-fc66aa776d22.png">
+![1721013e410053d07f2636c9c1fe0ad2](https://user-images.githubusercontent.com/69893922/96717216-140e8f80-13e1-11eb-958e-40be5c677abc.gif)
+<img width="1177" alt="スクリーンショット 2020-10-21 21 02 03" src="https://user-images.githubusercontent.com/69893922/96717221-1670e980-13e1-11eb-94f3-0d6b67520662.png">
 全員マルにするとログが残ります。
 
 ## 実装予定の機能

@@ -209,9 +209,7 @@
   justify-content: center;
   align-items: end;
 }
-.kaigyou{
-  display: flex;
-}
+
 .marubatubuttonok{
   font-size: 100px;
   color: red;
@@ -256,9 +254,4 @@ font-size: 30px;
 }
 .peoplemaru{
   display: none;
-}
-@media (max-width: 599px) {
-  .kaigyou{
-    
-  }
 }

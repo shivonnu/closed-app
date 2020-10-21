@@ -1,0 +1,17 @@
+.kaigyou{
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .kaigyou{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 599px) {
+  .kaigyou{
+    display: flex;
+    flex-direction: column;
+  }
+}

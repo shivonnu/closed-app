@@ -495,11 +495,11 @@ addEventListener("click",function() {
     check_text.value = "8";
     check_form.submit();
       alert("お疲れ様でした！\n閉店チェックOKです。\n気をつけて帰って下さい。");
-  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele5_1 == ele6_1 && ele7_1 == ele8_1 && ele8_1 == ele9_1 && ele2_1 == ele3_1 && ele4_1 == ele5_1 && people_9_maru_text != ""){
+  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele5_1 == ele6_1 && ele7_1 == ele8_1 && ele8_1 == ele9_1 && ele2_1 == ele3_1 && ele4_1 == ele5_1 && ele6_1 == ele7_1 && people_9_maru_text != ""){
     check_text.value = "9";
     check_form.submit();
       alert("お疲れ様でした！\n閉店チェックOKです。\n気をつけて帰って下さい。");
-  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele5_1 == ele6_1 && ele7_1 == ele8_1 && ele9_1 == ele10_1 && ele8_1 == ele9_1 && ele2_1 == ele3_1 && ele4_1 == ele5_1 && people_10_maru_text != ""){
+  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele5_1 == ele6_1 && ele7_1 == ele8_1 && ele9_1 == ele10_1 && ele8_1 == ele9_1 && ele2_1 == ele3_1 && ele4_1 == ele5_1 && ele6_1 == ele7_1 && people_10_maru_text != ""){
     check_text.value = "10";
     check_form.submit();
       alert("お疲れ様でした！\n閉店チェックOKです。\n気をつけて帰って下さい。");

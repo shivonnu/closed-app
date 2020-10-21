@@ -1,11 +1,56 @@
+.log-button {
+  display: flex;
+  float: right;
+  font-size: 20px;
+}
+.log-button a{
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding:20px
+}
 .kaigyou{
   display: flex;
+}
+
+.kaigyoumarubatu{
+  display: flex;
+}
+
+.edit-check-list {
+  font-size: 19px;
+}
+.edit-check-list a {
+  background-color: #abced8;
+  padding: 14px;
+  color:#165e83;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
   .kaigyou{
     display: flex;
     flex-direction: column;
+  }
+  .log-button a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding:20px
+  }
+  .log-button {
+    display: flex;
+    float: right;
+    font-size: 30px;
+  }
+  .kaigyoumarubatu{
+   display: flex;
+  }
+  .edit-check-list {
+    font-size: 30px;
+  }
+  .edit-check-list a {
+    color: #165e83; 
   }
 }
 
@@ -14,4 +59,25 @@
     display: flex;
     flex-direction: column;
   }
+  .log-button a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding:20px
+  }
+  .log-button {
+    display: flex;
+    float: right;
+    font-size: 30px;
+  }
+  .kaigyoumarubatu{
+  display: flex;
+  flex-direction: column;
+ }
+ .edit-check-list {
+  font-size: 30px;
+}
+.edit-check-list a {
+  color:#165e83;
+}
 }

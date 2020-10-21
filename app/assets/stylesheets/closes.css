@@ -28,15 +28,7 @@
   color: #FAFAFA;
   text-decoration: none;
 }
-.edit-check-list {
-  font-size: 14px;
-}
-.edit-check-list a {
-  border: 1px solid lightblue;
-  padding: 14px;
-  color: deepskyblue;
-  text-decoration: none;
-}
+
 .side-bar-main {
   height: calc(100vh - 100px);
   padding: 0 20px;
@@ -119,15 +111,7 @@
   padding: 46px 40px 0;
   overflow: scroll;
 }
-.log-button {
-  display: flex;
-  float: right;
-}
-.log-button a{
-  text-decoration: none;
-  border: 1px solid black;
-  color: black;
-  padding:20px
+
 }
 .check-answer  {
   background-color: #e8ecef;
@@ -220,11 +204,7 @@
   color: blue;
   padding: 5px;
 }
-.check-ok{
-  font-size: 100px;
-  color: red;
-  vertical-align: top;
-}
+
 .main-new{
   background-color: #e8ecef;
   height: 300px;

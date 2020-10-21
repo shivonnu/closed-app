@@ -257,3 +257,8 @@ font-size: 30px;
 .peoplemaru{
   display: none;
 }
+@media (max-width: 599px) {
+  .kaigyou{
+    
+  }
+}

@@ -124,9 +124,7 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+ 
 }
 .new_user{
   border: none;
@@ -161,8 +159,7 @@
   flex-direction: column;
 }
 .formbrock{
-  display: flex;
-  justify-content: flex-end;
+ 
 }
 .form {
   background-color: #abced8;
@@ -235,4 +232,8 @@ font-size: 30px;
 }
 .peoplemaru{
   display: none;
+}
+
+.center{
+ 
 }

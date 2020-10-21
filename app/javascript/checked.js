@@ -479,7 +479,7 @@ addEventListener("click",function() {
     check_text.value = "4";
     check_form.submit();
       alert("お疲れ様でした！\n閉店チェックOKです。\n気をつけて帰って下さい。");
-  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele4_1 == ele5_1 && people_5_maru_text != ""){
+  }else if (ele1_1 != "" && ele1_1 == ele2_1 && ele3_1 == ele4_1 && ele4_1 == ele5_1 && ele2_1 == ele3_1 && people_5_maru_text != ""){
     check_text.value = "5";
     check_form.submit();
       alert("お疲れ様でした！\n閉店チェックOKです。\n気をつけて帰って下さい。");

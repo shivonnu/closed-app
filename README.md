@@ -73,7 +73,8 @@ email、パスワードでログインします。
 | pass_word   | string  | null: false |
 
 ### Association
-- has_many :closes
+-  has_many :closes
+-  has_many :lists, through: :users
 
 ## Closesテーブル
 
@@ -83,8 +84,8 @@ email、パスワードでログインします。
 | user_id          | integer | null: false, foreign_key: :true |
 
 ### Association
-- belongs_to :user
-- has_one :list
+-  belongs_to :user
+-  belongs_to :list, optional: true
 
 ## Listsテーブル
 
@@ -94,8 +95,8 @@ email、パスワードでログインします。
 | user_id    | integer | null: false, foreign_key: :true |
 
 ### Association
-- belongs_to :user
-- belongs_to :close
+-  has_many :users, through: :closes
+-  has_many :closes
 
 ## ローカルでの動作方法
 

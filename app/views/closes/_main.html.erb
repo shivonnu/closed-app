@@ -8,6 +8,7 @@
       <%end%>
     </div>
     今日の閉店人数
+      <% if user_signed_in? %>
     <div class = "buttonspace">
     <div class = "kaigyou">
       <div class = "peoplebutton-block">
@@ -44,9 +45,8 @@
       </div>
       </div>
     </div>
-
   </div>
-    <% if user_signed_in? %>
+  
     <div class = "block">
       <h2 class = "peoplemaru" id = "peoplemaru_1"></h2>
       <h2 class = "peoplemaru" id = "peoplemaru_2"></h2>

@@ -1,3 +1,4 @@
+
 addEventListener("load",function() {
 let ele1_1 = document.getElementById("buttun1ok");
 let ele1_2 = document.getElementById("buttun1ng");

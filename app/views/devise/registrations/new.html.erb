@@ -5,6 +5,12 @@
       <%= devise_error_messages! %>
 
       <div class="field">
+        <%= f.label :store_name %><br />
+        <%= f.text_field :store_name %>
+      </div>
+
+
+      <div class="field">
         <%= f.label :email %><br />
         <%= f.email_field :email %>
       </div>

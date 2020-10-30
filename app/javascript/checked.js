@@ -442,6 +442,7 @@ let people_10_maru = document.getElementById("peoplemaru_10")
       ele10_1.innerText = "○";
     };
 });
+
 addEventListener("click",function() {
   let ele1_1 = document.getElementById("buttun1ok").innerText;
   let ele2_1 = document.getElementById("buttun2ok").innerText;

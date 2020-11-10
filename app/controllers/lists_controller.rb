@@ -9,6 +9,7 @@ class ListsController < ApplicationController
   def create
     @lists = List.new(list_params)
     if 
+      @lists.valid?
       @lists.save
       redirect_to root_path
     else

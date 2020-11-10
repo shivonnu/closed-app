@@ -8,6 +8,7 @@
         </div>
    </div>
     <%= form_with model: [@lists], url:  lists_path, method: :post,  local: true do |f|%>
+     <%= render  "lists/shared/error_messages", model: f.object  %>
       <div class = "edittexts">
         <div class = "text-area-input">
           <%=text_area_tag(:check_list,"（例）ウォッシャー電源切った",size: "30x20",class: "check_list")%>

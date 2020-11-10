@@ -1,0 +1,8 @@
+ja:
+ activerecord:
+   attributes:
+     user:
+       store_name: 店名
+     list:
+       check_list: チェックリスト
+     

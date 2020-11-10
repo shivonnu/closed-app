@@ -8,14 +8,16 @@
     </div>
     <div class = "check-list">
       <h2 class = "name">
-        <% if user_signed_in?%>
-          <% @list.where(user_id: current_user.id).each do |list| %>
-            <%=list.check_list%>
-          <%end%>
+         <%if user_signed_in?%>
+         <%if @list.present?%>
+         <%@list.where(user_id: current_user.id).each do |list| %>
+             <%=list.check_list%>
+        <%end%> 
+        <%end%> 
         <%end%> 
         <%if @list.nil?%>
           ウォッシャー電源止めて水抜いた<br>食材期限確認した<br>フライヤー電源止めた<br>炊飯器洗った
-        <%end %> 
+        <%end%> 
       </h2>
    </div>
   </div>

@@ -2,8 +2,9 @@
   <div class="container">
     <h2>Sign up</h2>
     <%= form_with model: @user, url: user_registration_path, id: 'new_user', class: 'new_user', local: true do |f| %>
-      <%= devise_error_messages! %>
-
+       <div class='new-error-message'>
+      <%= render  "devise/shared/error_messages", model: f.object  %>
+     </div>
       <div class="field">
         <%= f.label :store_name %><br />
         <%= f.text_field :store_name %>

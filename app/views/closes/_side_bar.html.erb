@@ -3,12 +3,12 @@
     <div class = "check-list-title">
       チェックリスト
     </div>
+     <%if user_signed_in?%>
     <div class = "edit-check-list">
       <%= link_to "チェックリストを編集する", new_list_path %>
     </div>
     <div class = "check-list">
       <h2 class = "name">
-         <%if user_signed_in?%>
          <%if @list.present?%>
          <%@list.where(user_id: current_user.id).each do |list| %>
              <%=list.check_list%>
